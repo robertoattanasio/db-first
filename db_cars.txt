@@ -1,0 +1,15 @@
+table_cars                                                                                          ESEMPI
+
+id                              numero              incrementale            PRIMARY KEY             // 1
+casa_automobilistica            stringa             varChar(30)             NOT NULL                // Alfa Romeo
+modello                         stringa             varChar(30)             NOT NULL                // Giulietta
+anno                            data                MM-YYYY                 NOT NULL                // 02-2018
+alimentazione                   stringa             varChar(20)             NOT NULL                // benzina
+cilindrata                      numero              tinyInt                 NOT NULL                // 250
+cambio                          stringa             varChar(20)             NULL                    // Manuale
+km_attuali                      numero              mediumInt               NOT NULL                // 45000
+numero_porte                    numero              tinyInt                 NULL                    // 5
+grandezza_serbatoio             numero              smallInt                NULL                    // 1200
+colore                          stringa             varChar(50)             NULL                    // Blu metallizzato
+lista_accessori                 stringa             text                    NULL                    // ABS, Airbag, Alzacristalli elettrici.
+
